@@ -1,0 +1,53 @@
+body{
+    margin:0;
+}
+.container{
+    font-family: Roboto, serif;
+    width:100%;
+    margin:auto;
+
+}
+.header{
+    background: #1f2937;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero{
+    background: #1f2937;
+    height: 400px;
+}
+.information{
+    height: 400px;
+}
+.quote{
+    background-color: #1f2837;
+    height: 400px;
+}
+.call-to-action{
+    height: 400px;
+}
+.footer{
+    background: #1f2937;
+    height: 100px;
+
+}
+.header, .hero, .information, .quote, .call-to-action, .footer{
+    padding: 0 100px;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.header ul a{
+    text-decoration: none;
+    color: #e5e7eb;
+    margin-left: 25px;
+}
+.header b{
+    color: #f9faf8;
+    font-size: 24px;
+}
